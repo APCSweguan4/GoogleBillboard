@@ -38,6 +38,8 @@ public void setup()
       cache.add(sNum2);  
     }
   }
+  System.out.println("The pattern is: " + cache);
+  System.out.println("(10 consecutive digits that add up to 49)");
   System.out.println("f(5) = " + cache.get(4));
 }  
 public void draw()  
