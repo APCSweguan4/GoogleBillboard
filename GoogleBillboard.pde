@@ -5,7 +5,7 @@ public void setup()
   
   String sNum = "";
   double num = 0.0;
-  for (int i = 0; i < e.length() - 10; i++) {
+  for (int i = 0; i <= e.length() - 10; i++) {
     if (i == 0) {
       sNum = e.substring(i, i + 11);  
       num = Double.parseDouble(sNum) * 1000000000;
