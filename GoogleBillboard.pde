@@ -59,10 +59,10 @@ public boolean isPrime(double dNum)
   return true;
 } 
 
-public int addDigits(String num) {
+public int addDigits(String str) {
   int count = 0;
-  for (int i = 0; i < num.length(); i++) {
-    count += Integer.parseInt(num.substring(i, i + 1));
+  for (int i = 0; i < str.length(); i++) {
+    count += Integer.parseInt(str.substring(i, i + 1));
   }
   return count;
 }
